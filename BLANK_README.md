@@ -34,23 +34,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Kiconex-IoT/KiWi">
+    <img src="images/kiwi.png" alt="Logo" width=auto height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">KiWi</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Kiconex Wireless
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Kiconex-IoT/KiWi"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
+    <a href="https://github.com/Kiconex-IoT/KiWi">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://github.com/Kiconex-IoT/KiWi/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://github.com/Kiconex-IoT/KiWi/issues">Request Feature</a>
   </p>
 </p>
 
