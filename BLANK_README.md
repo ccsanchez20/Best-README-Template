@@ -28,7 +28,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 -->
-[![LinkedIn][linkedin-url]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -82,7 +82,9 @@
 ## About The Project
 
 <p align="center">
-    [![Product Name Screen Shot][product-screenshot]](https://github.com/Kiconex-IoT/KiWi)
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/kiwi.png" alt="KiWi">
+      </a>
 </p>
 
 KiWi is a Kiconex Modbus bridge. It work like a Modbus TCP slave and a Modbus TCP master. KiWi receives messages via WiFi from a Kiconex TCP master and resend them to Modbus RTU slaves.
