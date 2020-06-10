@@ -21,13 +21,14 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+-->
+[![LinkedIn][linkedin-url]][linkedin-url]
 
 
 
@@ -78,21 +79,33 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
+KiWi is a Kiconex Modbus bridge. It work like a Modbus TCP slave and a Modbus TCP master. KiWi receives messages via WiFi from a Kiconex TCP master and resend them to Modbus RTU slaves.
+KiWi can be configured on a web portal: WiFi network, Modbus TCP port and Modbus RTU baud rate.
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Olimex ESP-32 POE](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware)
+* [IDE Arduino](https://www.arduino.cc/en/Main/Software)
+* [KiconexWiFiManager library]()
+* [KiconexModbusRTU library]()
+* [KiconexModbusBridge library]()
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+
+##Arduino IDE preparation
+
+1. Go to **Files>>Preferences**.
+
+2. Add this URL to **Additional Boards Manager URLs**:
+```
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+```
+3. Go to **Tools>>Board>>Board Manager**, search for **ESP32** and press **install**.
+4. Go to Tools>>Board and select **OLIMEX ESP32-POE** board.
+
+## How it Works
 
 To get a local copy up and running follow these simple steps.
 
@@ -102,17 +115,6 @@ This is an example of how to list things you need to use the software and how to
 * npm
 ```sh
 npm install npm@latest -g
-```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo.git
-```
-2. Install NPM packages
-```sh
-npm install
 ```
 
 
@@ -127,13 +129,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Issues
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Kiconex-IoT/KiWi/issues) for a list of proposed features (and known issues).
 
 
 
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -143,7 +145,7 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
+-->
 
 
 <!-- LICENSE -->
@@ -156,25 +158,28 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Kiconex - [kiconex.es](https://www.kiconex.com/)
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+email - [support@kiconex.es](support@kiconex.es)
+
+Project Link: [https://github.com/Kiconex-IoT/KiWi](https://github.com/Kiconex-IoT/KiWi)
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- ACKNOWLEDGEMENTS 
 ## Acknowledgements
 
 * []()
 * []()
 * []()
-
+-->
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!--
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
@@ -186,5 +191,6 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+-->
+[linkedin-url]: https://www.linkedin.com/company/kiconex/
+[product-screenshot]: images/kiwi.png
