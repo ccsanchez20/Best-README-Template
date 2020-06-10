@@ -62,15 +62,19 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
+* [How it Works](#how-it-works)
+  * [Arduino IDE preparation](#arduino-ide-preparation)
+  * [KiWi download and installation](#kiwi-download-and-installation)
+  * [Usage](#usage)
+* [Issues](#issues)
+<!--
 * [Contributing](#contributing)
 * [License](#license)
+-->
 * [Contact](#contact)
+<!--
 * [Acknowledgements](#acknowledgements)
+-->
 
 
 
@@ -94,7 +98,11 @@ KiWi can be configured on a web portal: WiFi network, Modbus TCP port and Modbus
 
 <!-- GETTING STARTED -->
 
-##Arduino IDE preparation
+## How it Works
+
+Follow this steps to upload the program on a [Olimex ESP32-POE](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) and use KiWi.
+
+### Arduino IDE preparation and upload
 
 1. Go to **Files>>Preferences**.
 
@@ -103,24 +111,19 @@ KiWi can be configured on a web portal: WiFi network, Modbus TCP port and Modbus
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 ```
 3. Go to **Tools>>Board>>Board Manager**, search for **ESP32** and press **install**.
-4. Go to Tools>>Board and select **OLIMEX ESP32-POE** board.
+4. Go to **Tools>>Board** and select **OLIMEX ESP32-POE** board.
 
-## How it Works
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
+### KiWi download and installation
+1. Clone repository:
 ```
-
-
+git clone https://github.com/Kiconex-IoT/KiWi KiWi
+```
+2. Run **KiWi.ino** on Arduino IDE.
+3. Compile **Program>>Compile**.
+4. Upload **Program>>Upload**.
 
 <!-- USAGE EXAMPLES -->
-## Usage
+### Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
