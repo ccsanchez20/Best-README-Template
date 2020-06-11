@@ -105,7 +105,7 @@ KiWi can be configured on a web portal: WiFi network, Modbus TCP port and Modbus
 
 Follow this steps to upload the program on a [Olimex ESP32-POE](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) and use KiWi.
 
-### Arduino IDE preparation and upload
+### Arduino IDE preparation
 
 1. Go to **Files>>Preferences**.
 
