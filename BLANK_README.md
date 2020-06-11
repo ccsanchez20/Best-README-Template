@@ -179,6 +179,24 @@ At end, when you confirm, you go to a new tab wich indicates that changes is bei
       </a>
 </p>
 
+
+#### Client Mode
+
+When KiWi have a correct network configuration stored, it connects like a WiFi client and open a web portal similar to AP Portal, where you can see configuration stored in the **Information** page or change WiFi or Modbus parameters.
+You can see this portal on the static IP previously configured.
+
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/sta1.PNG" alt="KiWi_Client_Portal">
+      </a>
+</p>
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/apmodbus.PNG" alt="KiWi_Client_Info">
+      </a>
+</p>
+
+
 <!-- ROADMAP -->
 ## Issues
 
