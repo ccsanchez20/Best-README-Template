@@ -130,7 +130,7 @@ git clone https://github.com/Kiconex-IoT/KiWi KiWi
 
 #### AP Mode
 
-When you run KiWi the first time, create a open WiFi network named KIWI_XXXXXXXX.
+When you run KiWi the first time, create a open WiFi network named **KIWI_XXXXXXXX**.
 You can connect to it and you will be redirected to configuration portal at IP 192.168.4.1.
 
 <p align="center">
@@ -149,7 +149,7 @@ If you go to **WiFi Configuration** yo will see available networks with their si
 
 After configure a network, click on **Continue** and go to the confirmation page. Here, you can see default Modbus configuration (TCP port 502 and baud rate 9600). 
 
-You can confirm or if you want a different Modbus Configuration, you can go to Modbus Configuration.
+You can confirm or if you want a different Modbus Configuration, you can go to **Modbus Configuration**.
 
 <p align="center">
       <a href="https://github.com/Kiconex-IoT/KiWi">
@@ -157,13 +157,13 @@ You can confirm or if you want a different Modbus Configuration, you can go to M
       </a>
 </p>
 
-Modbus Configuration have a confirm tab too.
-
 <p align="center">
       <a href="https://github.com/Kiconex-IoT/KiWi">
          <img src="images/apmodbus.PNG" alt="KiWi">
       </a>
 </p>
+
+Modbus Configuration have a confirm tab too.
 
 <p align="center">
       <a href="https://github.com/Kiconex-IoT/KiWi">
@@ -171,7 +171,7 @@ Modbus Configuration have a confirm tab too.
       </a>
 </p>
 
-At end, when you confirm, you go to a new tab wich indicates that changes is being applied. If you wait 10 seconds and click on **How it went**, you will be redirected to KiWi static IP configured, if your dispositive is now connected to the same WiFi network.
+At end, when you confirm, you go to a new tab wich indicates that changes is being applied. If you wait 10 seconds and click on **How it went**, you will be redirected to KiWi static IP configured, ***if your dispositive is now connected to the same WiFi network***.
 
 <p align="center">
       <a href="https://github.com/Kiconex-IoT/KiWi">
