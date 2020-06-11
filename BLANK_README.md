@@ -128,11 +128,56 @@ git clone https://github.com/Kiconex-IoT/KiWi KiWi
 <!-- USAGE EXAMPLES -->
 ### Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+#### AP Mode
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+When you run KiWi the first time, create a open WiFi network named KIWI_XXXXXXXX.
+You can connect to it and you will be redirected to configuration portal at IP 192.168.4.1.
 
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/ap1.PNG" alt="KiWi">
+      </a>
+</p>
 
+If you go to **WiFi Configuration** yo will see available networks with their signals.
+
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/apwifi.PNG" alt="KiWi">
+      </a>
+</p>
+
+After configure a network, click on **Continue** and go to the confirmation page. Here, you can see default Modbus configuration (TCP port 502 and baud rate 9600). 
+
+You can confirm or if you want a different Modbus Configuration, you can go to Modbus Configuration.
+
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/apwificonfirm.PNG" alt="KiWi">
+      </a>
+</p>
+
+Modbus Configuration have a confirm tab too.
+
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/apmodbus.PNG" alt="KiWi">
+      </a>
+</p>
+
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/apmodbusconfirm.PNG" alt="KiWi">
+      </a>
+</p>
+
+At end, when you confirm, you go to a new tab wich indicates that changes is being applied. If you wait 10 seconds and click on **How it went**, you will be redirected to KiWi static IP configured, if your dispositive is now connected to the same WiFi network.
+
+<p align="center">
+      <a href="https://github.com/Kiconex-IoT/KiWi">
+         <img src="images/apend.PNG" alt="KiWi">
+      </a>
+</p>
 
 <!-- ROADMAP -->
 ## Issues
